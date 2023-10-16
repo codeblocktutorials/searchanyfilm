@@ -1,0 +1,25 @@
+.well{
+  margin-bottom: 40px;
+  padding: 15px;
+}
+
+
+#movies img, #movie img{
+  width: 100%;
+  
+}
+
+@media(min-width:960px) {
+  
+  #movies .col-md-3 .well{
+    height: 300px;
+  }
+  
+  #movies .col-md-3 img{
+    height: 240px;
+    margin-bottom: 20px;
+  }
+
+}
+
+
